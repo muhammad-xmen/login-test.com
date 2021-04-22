@@ -1,0 +1,99 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.left-sid {
+    width: 50%;
+    margin: 0px auto;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 13px 10px ;
+    word-spacing: 5px;
+    display: flex;
+    box-shadow: 0px 0px 100px red;
+    /* inset 0px 0px 20px rgba(106, 16, 209, 0.678), */
+    /* inset 0px 0px 20px yellow; */
+}
+/*color*/
+#w {
+    color: rgb(241, 231, 229);
+    animation: first;
+    animation-duration: 20s ;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+
+#e {
+    color: blue;
+    animation: first;
+    animation-duration: 20s ;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+
+#l {
+    color: greenyellow;
+    animation: first;
+    animation-duration: 20s ;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+
+#c {
+    color: lightpink;
+    animation: first;
+    animation-duration: 20s ;
+    animation-iteration-count: inherit;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+
+#m {
+    color: tomato;
+    animation: first;
+    animation-duration: 20s ;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+
+#o {
+    color: tomato;
+    animation: first;
+    animation-duration: 20s ;
+    animation-iteration-count: inherit;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+
+/* animation */
+
+@keyframes first {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: translate3d(110px, 100px,1);
+        color: blue;
+        
+    }
+
+    100% {
+        transform: rotateZ(1000deg);
+        color: saddlebrown;
+    } 
+}

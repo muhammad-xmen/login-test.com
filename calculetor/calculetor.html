@@ -1,0 +1,40 @@
+<html>
+
+<head>
+
+</head>
+
+<body bgcolor="black">
+    <br>
+    <br>
+    <br>
+    <form name="calculator" align="center">
+        <input type="textfield" name="ans" value="">
+        <br>
+        <h3>
+            <input type="button" value="1" onclick="document.calculator.ans.value+='1'" style="color:black">
+            <input type="button" value="2" onclick="document.calculator.ans.value+='2'" style="color:black">
+            <input type="button" value="3" onclick="document.calculator.ans.value+='3'" style="color:black">
+            <input type="button" value="+" onclick="document.calculator.ans.value+='+'" style="color:green">
+            <br>
+            <input type="button" value="4" onclick="document.calculator.ans.value+='4'" style="color:black">
+            <input type="button" value="5" onclick="document.calculator.ans.value+='5'" style="color:black">
+            <input type="button" value="6" onclick="document.calculator.ans.value+='6'" style="color:black">
+            <input type="button" value="-" onclick="document.calculator.ans.value+='-'" style="color:green">
+            <br>
+            <input type="button" value="7" onclick="document.calculator.ans.value+='7'" style="color:black">
+            <input type="button" value="8" onclick="document.calculator.ans.value+='8'" style="color:black">
+            <input type="button" value="9" onclick="document.calculator.ans.value+='9'" style="color:black">
+            <input type="button" value="*" onclick="document.calculator.ans.value+='*'" style="color:green">
+            <br>
+            <input type="button" value="0" onclick="document.calculator.ans.value+='0'" style="color:black">
+            <input type="button" value="C" onclick="document.calculator.ans.value=''" style="color:black">
+            <input type="button" value="/" onclick="document.calculator.ans.value+='/'" style="color:green">
+            <input type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)"
+                style="color:green">
+
+        </h3>
+    </form>
+</body>
+
+</html>

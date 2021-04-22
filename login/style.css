@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lucida Sans',
+		'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: rgba(29, 223, 223, 0.349)
+}
+
+form {
+	background: rgba(150, 117, 117, 0.459);
+	text-align: center;
+	width: 450;
+	padding: 10px;
+	height: 75%;
+	border-radius: 0% 40% 40% 40%;
+	box-shadow: 0px 0px 10px 10px rgba(156, 112, 112, 0.411);
+	margin: 70 auto;
+}
+
+form img {
+	border: 2px solid rgb(9, 9, 22);
+	border-radius: 50px 50px 50px 50px;
+	transition: 0.2s;
+	margin: 20px 150px 2px 0px;
+
+}
+
+form img:hover {
+	cursor: pointer;
+	box-shadow: 5px 5px 20px 5px rgb(153, 117, 117);
+
+}
+
+form input {
+	font-size: 20;
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);
+	margin-top: 25px;
+	width: 70%;
+	height: 45px;
+	padding: 10px;
+	border-radius: 30px;
+	border: none;
+	background-color: #f1ccc675;
+	transition: 0.7s;
+	outline: none;
+}
+
+form input:hover {
+	border: none;
+	box-shadow: 5px 5px 10px rgb(131, 6, 6);
+	padding: 13px;
+	/* background: none; */
+
+}
+
+form button {
+	font-family: sans-serif;
+	font-size: 20;
+	margin-top: 25px;
+	width: 100px;
+	padding: 10px;
+	border: none;
+	border-radius: 30px;
+	background: #6b5858;
+	box-shadow: 0px 0px 20px 0px #6b5858,inset  -20px -20px 30px -10px #ff0000 ;
+	transition: 0.3s;
+}
+
+form #left {
+	margin-right: 10px;
+}
+form button a{
+	text-decoration: none;
+	color: white;
+}
+
+form button:hover {
+	box-shadow: 0px 0px 20px 5px black,inset  -20px -20px 30px -10px #ff0000;
+	cursor: pointer;
+	padding: 5px;
+}
+
+form .link {
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: rgb(248, 0, 0);
+	font-weight: 400;
+	font-family: sans-serif;
+	transition: 0.8s;
+}
+
+form .link:hover {
+	color: blue;
+}
